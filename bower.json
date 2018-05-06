@@ -1,0 +1,22 @@
+{
+  "name": "ng-calc",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sugat Sapkota <sugatsapkota@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.10",
+    "bootstrap": "^4.1.1",
+    "angular-mocks": "^1.6.10"
+  }
+}

@@ -1,0 +1,38 @@
+<!-- index.html -->
+
+<!DOCTYPE html>  
+<html lang="en" ng-app="Calculator">
+
+<head>  
+    <meta charset="UTF-8">
+    <title>ngCalculator</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body ng-controller="CalcController">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label>First Number: </label>
+                    <input type="number" class="form-control" ng-model="first">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Second Number: </label>
+                    <input type="number" class="form-control" ng-model="second">
+                </div>
+                <br>
+                <button class="btn btn-lg btn-success" ng-click="sum()">+</button>
+                <h1>{{ result }}</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>  
